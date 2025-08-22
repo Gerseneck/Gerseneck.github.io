@@ -2,3 +2,25 @@
 title: Home
 layout: default
 ---
+{% if site.posts.size == 0 %}
+  <div class="container-404">
+    <h2>There aren't any posts here yet :(</h2>
+    <p>In the meantime, you should visit the <a href="/projects/">projects</a> page.</p>
+  </div>
+{% else %}
+  <h1>Posts</h1>
+  <hr>
+  <div class="row">
+    {% for post in site.posts %}
+      <div class="col-md-6 mb-3">
+        <div class="card shadow h-100">
+          <a href="{{ post.url }}" class="card-body text-decoration-none d-flex flex-column">
+            <h3>{{ post.title }}</h3>
+            <p class="text-muted">Written on {{ post.date | date: '%b %d, %Y' }}</p>
+            <p class="mt-2">{{ post.description }}</p>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
