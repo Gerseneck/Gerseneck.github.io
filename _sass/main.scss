@@ -2,9 +2,11 @@
 
 $spacer: 1rem;
 
-.fit-center {
-  padding-left: calc($spacer * 9);
-  padding-right: calc($spacer * 9);
+@media (min-width: 1400px) { 
+  .fit-center {
+    padding-left: calc($spacer * 9);
+    padding-right: calc($spacer * 9);
+  }
 }
 
 .bi {
