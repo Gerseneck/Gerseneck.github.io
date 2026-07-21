@@ -2,25 +2,20 @@
 title: Home
 layout: default
 ---
-{% if site.posts.size == 0 %}
-  <div class="container-404">
-    <h2>There aren't any posts here yet :(</h2>
-    <p>In the meantime, you should visit the <a href="/projects/">projects</a> page.</p>
+<h1>Hi, I'm Geeson Wan!</h1>
+<p>Computer Engineer @ Purdue University</p>
+<a href="https://github.com/Gerseneck/" class="text-decoration-none" target="_blank">
+  <i class="bi bi-github fs-4"></i>
+  Github
+</a>
+<div class="vr"></div>
+<a href="https://www.linkedin.com/in/geeson-wan/" class="text-decoration-none" target="_blank">
+  <i class="bi bi-linkedin fs-4"></i>
+  LinkedIn
+</a>
+<hr>
+<div class="card about-me">
+  <div class="card-body">
+    <p>Computer Engineering student at Purdue University with experience in programming, embedded development, and open-source software. Passionate about embedded systems, computer architecture, and semiconductors.</p>
   </div>
-{% else %}
-  <h1>Posts</h1>
-  <hr>
-  <div class="row">
-    {% for post in site.posts %}
-      <div class="col-md-6 mb-3">
-        <div class="card shadow h-100">
-          <a href="{{ post.url }}" class="card-body text-decoration-none d-flex flex-column">
-            <h3>{{ post.title }}</h3>
-            <p class="text-muted">Written on {{ post.date | date: '%b %d, %Y' }}</p>
-            <p class="mt-2">{{ post.description }}</p>
-          </a>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-{% endif %}
+</div>
