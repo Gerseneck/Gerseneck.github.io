@@ -1,5 +1,6 @@
+@import "_colors";
+
 $spacer: 1rem;
-$text-color: #e9eeff;
 
 .fit-center {
   padding-left: calc($spacer * 9);
@@ -9,10 +10,10 @@ $text-color: #e9eeff;
 .bi {
   vertical-align: 0.125em;
 }
-
-a {
-  color: #7cc7ff;
-}
+//
+// a {
+//   color: $aqua;
+// }
 
 .gradient-text {
   background: linear-gradient(120deg, #2b6cff, #1ac1b5, #7a5cff);
@@ -20,7 +21,6 @@ a {
   background-clip: text;
   color: transparent;
 }
-
 
 body {
   background:

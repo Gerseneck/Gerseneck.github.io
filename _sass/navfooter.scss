@@ -1,4 +1,4 @@
-@use "main";
+@import "_colors";
 
 nav {
   border-bottom: 1px solid #2a2e33;
@@ -9,11 +9,11 @@ nav, footer {
 }
 
 .nav-link {
-  color: #d3d3e9;
+  color: $text-color;
 }
 
 .navbar-brand, .navbar-brand:hover {
-  @extend .gradient-text;
+  color: $text-color;
 }
 
 footer {
