@@ -1,0 +1,22 @@
+@use "main";
+
+nav {
+  border-bottom: 1px solid #2a2e33;
+}
+
+nav, footer {
+  background: rgba(18, 25, 44, 0.92);
+}
+
+.nav-link {
+  color: #d3d3e9;
+}
+
+.navbar-brand, .navbar-brand:hover {
+  @extend .gradient-text;
+}
+
+footer {
+  border-top: 1px solid #2a2e33;
+}
+

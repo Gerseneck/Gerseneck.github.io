@@ -1,3 +1,31 @@
+$spacer: 1rem;
+$text-color: #e9eeff;
+
+.fit-center {
+  padding-left: calc($spacer * 9);
+  padding-right: calc($spacer * 9);
+}
+
 .bi {
   vertical-align: 0.125em;
+}
+
+a {
+  color: #7cc7ff;
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, #2b6cff, #1ac1b5, #7a5cff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+body {
+  background:
+  radial-gradient(400px circle at 15% 5%, rgba(0, 12, 152, 0.26), transparent 25%),
+  linear-gradient(135deg, #111729 0%, #0e1221 100%);
+  background-attachment: fixed;
+  color: $text-color;
 }

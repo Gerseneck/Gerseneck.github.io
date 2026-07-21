@@ -2,11 +2,11 @@
   margin-bottom: 1em;
 }
 
-.card:not(.about-me) {
+.card.popout {
   transition: all 0.3s;
 }
 
-.card:hover:not(.about-me) {
+.card.popout:hover {
   transform: scale(1.05);
 }
 
