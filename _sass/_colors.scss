@@ -1,8 +1,20 @@
-$text-color: #e9eeff;
+$primary: #e9eeff;
+$secondary: #8d96b0;
 $aqua: #7cc7ff;
-$secondary: #dee2e6;
 
-:root {
-  --bs-secondary-color: $secondary;
+:root, [data-bs-theme=dark] {
+  --bs-body-color: #e9eeff;
+  --bs-link-color: #7cc7ff;
   --bs-link-color-rgb: 124, 199, 255;
+  --bs-secondary-color: #8d96b0;
+  nav {
+    --bs-navbar-hover-color: #e9eeff;
+    --bs-navbar-brand-color: #8d8d8d;
+    --bs-navbar-brand-hover-color: #e9eeff;
+    --bs-navbar-color: #8d8d8d;
+    --bs-nav-link-hover-color: #e9eeff;
+  }
+}
+
+:root, [data-bs-theme=light] {
 }
