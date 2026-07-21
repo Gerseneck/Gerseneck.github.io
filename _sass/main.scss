@@ -19,8 +19,10 @@ $spacer: 1rem;
 }
 
 body {
-  background:
-  radial-gradient(400px circle at 15% 5%, rgba(0, 12, 152, 0.26), transparent 25%),
-  linear-gradient(135deg, #111729 0%, #0e1221 100%);
+  background: radial-gradient(400px circle at 15% 5%, rgba(0, 12, 152, 0.26), transparent 25%), linear-gradient(135deg, #111729 0%, #0e1221 100%);
   background-attachment: fixed;
+}
+
+h1.h0 {
+  font-size: 3.5em;
 }
