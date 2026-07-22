@@ -1,0 +1,38 @@
+# tag badge styling
+# required: 
+#   name: name of tag
+#   display: how the tag is displayed
+# one or the other: 
+#   style: bootstrap color style
+#   color: color hex code/rbg css function
+# optional: 
+#   text-color: text color hex code/rbg css function
+
+# project type
+- name: personal
+  display: Personal
+  style: primary
+
+# programming platforms
+- name: arduino
+  display: Arduino
+  color: "#00979d"
+
+- name: embedded
+  display: Embedded
+  style: success
+
+# programming/scripting languages
+- name: lua
+  display: Lua
+  color: "#000080"
+
+- name: bash
+  display: Bash
+  color: "#89e051"
+  text-color: "#212529"
+
+# misc
+- name: wip
+  display: WIP
+  style: warning

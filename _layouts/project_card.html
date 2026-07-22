@@ -1,0 +1,20 @@
+---
+layout: null
+---
+<div class="col-md-6 mb-3">
+  <div class="card popout h-100">
+    <a href="{{ page.link }}" class="card-body text-decoration-none">
+      <h3>{{ page.title }}</h3>
+      {% if page.tags %}
+        <div class="mb-2">
+          {% for tag in page.tags %}
+            {% assign t = site.data.badges | where: "name", tag | first %}
+            <span class="badge {% if t.style %}text-bg-{{ t.style }}{% endif %}" style="{% if t.color %}background: {{ t.color }};{% endif %}{% if t.text-color %}color: {{ t.text-color }};{% endif %}">{{ t.display }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {{ content }}
+    </a>
+  </div>
+</div>

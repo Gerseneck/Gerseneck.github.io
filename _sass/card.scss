@@ -21,6 +21,8 @@
 
 .card-body > p {
   margin-bottom: 0px;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .card-body > ul {
