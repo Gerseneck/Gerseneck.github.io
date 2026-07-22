@@ -9,6 +9,10 @@
 #   text-color: text color hex code/rbg css function
 
 # project type
+- name: developer
+  display: Developer
+  style: info
+
 - name: personal
   display: Personal
   style: primary
@@ -22,15 +26,37 @@
   display: Embedded
   style: success
 
-# programming/scripting languages
-- name: lua
-  display: Lua
-  color: "#000080"
+- name: web
+  display: Web
+  color: "#0ea5e9"
+  text-color: "#212529"
 
+- name: cli
+  display: CLI
+  color: "#00ff66"
+  text-color: "#212529"
+
+# programming/scripting languages/frameworks
 - name: bash
   display: Bash
   color: "#89e051"
   text-color: "#212529"
+
+- name: latex
+  display: LaTeX
+  color: "#238636"
+
+- name: lua
+  display: Lua
+  color: "#000080"
+
+- name: python
+  display: Python
+  color: "#3776ab"
+
+- name: rails
+  display: Ruby on Rails
+  color: "#cc0000"
 
 # misc
 - name: wip

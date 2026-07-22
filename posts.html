@@ -14,7 +14,7 @@ permalink: /posts/
   <div class="row">
     {% for post in site.posts %}
       <div class="col-md-6 mb-3">
-        <div class="card shadow h-100">
+        <div class="card popout shadow h-100">
           <a href="{{ post.url }}" class="card-body text-decoration-none d-flex flex-column">
             <h3>{{ post.title }}</h3>
             <p class="text-muted">Written on {{ post.date | date: '%b %d, %Y' }}</p>

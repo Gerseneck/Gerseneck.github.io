@@ -37,7 +37,7 @@ layout: default
 </div>
 <h1>Notable Projects</h1>
 <div class="row mt-4">
-  {% assign featured_0 = site.project_cards | where: "title", "Tempo Clock" %}
-  {{ featured_0 }}
+  {{ site.project_cards | where: "title", "Tempo Clock" | first }}
+  {{ site.project_cards | where: "title", "GatherPack" | first }}
 </div>
 
