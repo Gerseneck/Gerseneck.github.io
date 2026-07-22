@@ -1,11 +1,11 @@
 # tag badge styling
-# required: 
+# required:
 #   name: name of tag
 #   display: how the tag is displayed
-# one or the other: 
+# one or the other:
 #   style: bootstrap color style
 #   color: color hex code/rbg css function
-# optional: 
+# optional:
 #   text-color: text color hex code/rbg css function
 
 # project type
