@@ -14,8 +14,7 @@ $spacer: 1rem;
 }
 
 .gradient-text {
-  // background: linear-gradient(120deg, #2b6cff, #1ac1b5, #7a5cff);
-  background: linear-gradient(120deg, #66a1ff, #39d7cf, #a88bff);
+  background: linear-gradient(120deg, var(--gradient-text-0), var(--gradient-text-1), var(--gradient-text-2));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

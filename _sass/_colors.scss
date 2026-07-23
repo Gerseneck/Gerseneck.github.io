@@ -23,6 +23,9 @@
   --nav-footer-border: #2a2e33;
   --card-background: rgba(255, 255, 255, 0.04);
   --card-border: rgba(255, 255, 255, 0.1);
+  --gradient-text-0: #2b6cff;
+  --gradient-text-1: #1ac1b5;
+  --gradient-text-2: #7a5cff;
 }
 
 [data-bs-theme=light] {
@@ -33,4 +36,7 @@
   --nav-footer-border: #d6dae0;
   --card-background: rgba(0, 0, 0, 0.04);
   --card-border: rgba(0, 0, 0, 0.1);
+  --gradient-text-0: #66a1ff;
+  --gradient-text-1: #39d7cf;
+  --gradient-text-2: #a88bff;
 }
