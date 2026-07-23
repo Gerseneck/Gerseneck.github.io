@@ -14,14 +14,15 @@ $spacer: 1rem;
 }
 
 .gradient-text {
-  background: linear-gradient(120deg, #2b6cff, #1ac1b5, #7a5cff);
+  // background: linear-gradient(120deg, #2b6cff, #1ac1b5, #7a5cff);
+  background: linear-gradient(120deg, #66a1ff, #39d7cf, #a88bff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 body {
-  background: radial-gradient(400px circle at 15% 5%, rgba(0, 12, 152, 0.26), transparent 25%), linear-gradient(135deg, #111729 0%, #0e1221 100%);
+  background: radial-gradient(400px circle at 15% 5%, var(--body-ball), transparent 25%), linear-gradient(135deg, var(--body-shade-0) 0%, var(--body-shade-1) 100%);
   background-attachment: fixed;
 }
 

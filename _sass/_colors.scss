@@ -1,10 +1,10 @@
-$primary: #e9eeff;
-$secondary: #8d96b0;
-$dark-gray: #2a2e33;
-$aqua: #7cc7ff;
 
-:root,
-[data-bs-theme="dark"] {
+[data-bs-theme=dark] {
+  $primary: #e9eeff;
+  $secondary: #8d96b0;
+  $dark-gray: #2a2e33;
+  $aqua: #7cc7ff;
+
   --bs-body-color: #e9eeff;
   --bs-link-color: #7cc7ff;
   --bs-link-color-rgb: 124, 199, 255;
@@ -16,8 +16,21 @@ $aqua: #7cc7ff;
     --bs-navbar-hover-color: #e9eeff;
     --bs-nav-link-hover-color: #e9eeff;
   }
+  --body-shade-0: #111729;
+  --body-shade-1: #0e1221;
+  --body-ball: rgba(0, 12, 152, 0.26);
+  --nav-footer-background: rgba(18, 25, 44, 0.92);
+  --nav-footer-border: #2a2e33;
+  --card-background: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.1);
 }
 
-:root,
-[data-bs-theme="light"] {
+[data-bs-theme=light] {
+  --body-shade-0: #f7f9ff;
+  --body-shade-1: #e1e7f5;
+  --body-ball: rgba(10, 70, 255, 0.12);
+  --nav-footer-background: rgba(225, 231, 245, 0.92);
+  --nav-footer-border: #d6dae0;
+  --card-background: rgba(0, 0, 0, 0.04);
+  --card-border: rgba(0, 0, 0, 0.1);
 }
