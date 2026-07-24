@@ -1,26 +1,26 @@
 
 [data-bs-theme=dark] {
-  $primary: #e9eeff;
-  $secondary: #8d96b0;
-  $dark-gray: #2a2e33;
-  $aqua: #7cc7ff;
+  --primary: #e9eeff;
+  --secondary: #8d96b0;
+  --dark-gray: #2a2e33;
+  --aqua: #7ccff7;
 
-  --bs-body-color: #e9eeff;
-  --bs-link-color: #7cc7ff;
+  --bs-body-color: var(--primary);
+  --bs-link-color: var(--aqua);
   --bs-link-color-rgb: 124, 199, 255;
-  --bs-secondary-color: #8d96b0;
+  --bs-secondary-color: var(--secondary);
   nav {
     --bs-navbar-brand-color: #8d8d8d;
-    --bs-navbar-brand-hover-color: #e9eeff;
+    --bs-navbar-brand-hover-color: var(--primary);
     --bs-navbar-color: #8d8d8d;
-    --bs-navbar-hover-color: #e9eeff;
-    --bs-nav-link-hover-color: #e9eeff;
+    --bs-navbar-hover-color: var(--primary);
+    --bs-nav-link-hover-color: var(--primary);
   }
   --body-shade-0: #111729;
   --body-shade-1: #0e1221;
   --body-ball: rgba(0, 12, 152, 0.26);
   --nav-footer-background: rgba(18, 25, 44, 0.92);
-  --nav-footer-border: #2a2e33;
+  --nav-footer-border: var(--dark-gray);
   --card-background: rgba(255, 255, 255, 0.04);
   --card-border: rgba(255, 255, 255, 0.1);
   --gradient-text-0: #2b6cff;
