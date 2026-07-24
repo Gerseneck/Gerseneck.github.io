@@ -6,7 +6,7 @@ github_username: Gerseneck
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tags
+  - jekyll-seo-tag
 
 collections:
   project_cards:
