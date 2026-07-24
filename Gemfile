@@ -17,6 +17,8 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-compose"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-seo-tags", "~> 1.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,5 +34,3 @@ gem "wdm", "~> 0.1", :platforms => [:windows]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-
-gem "jekyll-sitemap", "~> 1.4"
