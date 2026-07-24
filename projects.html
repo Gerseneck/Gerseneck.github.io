@@ -7,7 +7,7 @@ permalink: /projects/
 <p>These are some of the projects I created or contributed to that I'm proud of. Reflecting my interests in embedded systems, systems programming, and web development. You'll find many smaller projects and experiments on my <a href="https://github.com/Gerseneck/">GitHub profile</a>.</p>
 <hr>
 <div class="row mb-6">
-  {% for card in site.project_cards %}
+  {% for card in site.project_cards | where "category", "project_cards" %}
     {{ card }}
   {% endfor %}
 </div>

@@ -42,6 +42,10 @@
   color: "#89e051"
   text-color: "#212529"
 
+- name: c
+  display: C
+  color: "#00599c"
+
 - name: latex
   display: LaTeX
   color: "#238636"
